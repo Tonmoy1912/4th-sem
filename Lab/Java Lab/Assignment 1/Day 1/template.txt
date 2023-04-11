@@ -1,0 +1,11 @@
+/* problem statement */
+
+
+import java.util.Scanner;
+
+class Prob1{
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);//cerating an instances of Scanner object for input purpose
+        
+    }
+}
