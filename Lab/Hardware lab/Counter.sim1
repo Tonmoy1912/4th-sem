@@ -1,0 +1,89 @@
+<circuit version="1.0.0-SR0" rev="1320" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+
+<item itemtype="Subcircuit" CircId="74HC76-2" mainComp="false" Show_id="true" Show_Val="false" Pos="280,396" rotation="-360" hflip="-1" vflip="1" label="74HC76-2" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Logic_Symbol="true" />
+
+<item itemtype="Seven Segment" CircId="Seven Segment-121" mainComp="false" Show_id="false" Show_Val="false" Pos="740,124" rotation="0" hflip="1" vflip="1" label="Seven Segment-121" idLabPos="20,-44" labelrot="0" valLabPos="-16,20" valLabRot="0" NumDisplays="1 _7seg" Color="Yellow" Vertical_Pins="false" CommonCathode="true" Threshold="2.4 V" MaxCurrent="0.02 A" Resistance="1 Ω" />
+
+<item itemtype="Ground" CircId="Ground-142" mainComp="false" Show_id="false" Show_Val="false" Pos="892,156" rotation="0" hflip="1" vflip="1" label="Ground-142" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-143" mainComp="false" Show_id="false" Show_Val="false" Pos="884,200" rotation="0" hflip="-1" vflip="1" label="Fixed Voltage-143" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Out="true" Voltage="3 V" />
+
+<item itemtype="Subcircuit" CircId="74XX48-306" mainComp="false" Show_id="true" Show_Val="false" Pos="208,252" rotation="-450" hflip="1" vflip="1" label="74XX48-306" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Logic_Symbol="true" />
+
+<item itemtype="Subcircuit" CircId="74XX90-380" mainComp="false" Show_id="true" Show_Val="false" Pos="628,304" rotation="0" hflip="1" vflip="1" label="74XX90-380" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Logic_Symbol="true" />
+
+<item itemtype="Clock" CircId="Clock-383" mainComp="false" Show_id="false" Show_Val="false" Pos="540,348" rotation="0" hflip="1" vflip="1" label="Clock-383" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Out="true" Running="true" Voltage="5 V" Freq="1 Hz" Always_On="false" />
+
+<item itemtype="Led" CircId="Led-387" mainComp="false" Show_id="false" Show_Val="false" Pos="756,332" rotation="0" hflip="1" vflip="1" label="Led-387" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Yellow" Grounded="false" Threshold="2.4 V" MaxCurrent="0.03 A" Resistance="0.6 Ω" />
+
+<item itemtype="Led" CircId="Led-388" mainComp="false" Show_id="false" Show_Val="false" Pos="756,356" rotation="0" hflip="1" vflip="1" label="Led-388" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Yellow" Grounded="false" Threshold="2.4 V" MaxCurrent="0.03 A" Resistance="0.6 Ω" />
+
+<item itemtype="Led" CircId="Led-389" mainComp="false" Show_id="false" Show_Val="false" Pos="756,380" rotation="0" hflip="1" vflip="1" label="Led-389" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Yellow" Grounded="false" Threshold="2.4 V" MaxCurrent="0.03 A" Resistance="0.6 Ω" />
+
+<item itemtype="Led" CircId="Led-390" mainComp="false" Show_id="false" Show_Val="false" Pos="756,412" rotation="0" hflip="1" vflip="1" label="Led-390" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Yellow" Grounded="false" Threshold="2.4 V" MaxCurrent="0.03 A" Resistance="0.6 Ω" />
+
+<item itemtype="Ground" CircId="Ground-404" mainComp="false" Show_id="false" Show_Val="false" Pos="796,420" rotation="0" hflip="1" vflip="1" label="Ground-404" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Ground" CircId="Ground-415" mainComp="false" Show_id="false" Show_Val="false" Pos="544,304" rotation="0" hflip="1" vflip="1" label="Ground-415" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Node" CircId="Node-391" mainComp="false" Pos="668,328" />
+
+<item itemtype="Node" CircId="Node-398" mainComp="false" Pos="772,356" />
+
+<item itemtype="Node" CircId="Node-401" mainComp="false" Pos="772,380" />
+
+<item itemtype="Node" CircId="Node-405" mainComp="false" Pos="772,400" />
+
+<item itemtype="Node" CircId="Node-408" mainComp="false" Pos="620,320" />
+
+<item itemtype="Node" CircId="Node-411" mainComp="false" Pos="620,340" />
+
+<item itemtype="Node" CircId="Node-417" mainComp="false" Pos="620,312" />
+
+<item itemtype="Connector" uid="connector-309" startpinid="Seven Segment-121-pin_commona" endpinid="Ground-142-Gnd" pointList="748,156,832,156,832,140,892,140" />
+
+<item itemtype="Connector" uid="connector-310" startpinid="Seven Segment-121-pin_dot" endpinid="Fixed Voltage-143-outnod" pointList="732,156,732,200,868,200" />
+
+<item itemtype="Connector" uid="Connector-381" startpinid="74XX90-380-MS1" endpinid="Node-417-0" pointList="620,312,620,312" />
+
+<item itemtype="Connector" uid="Connector-382" startpinid="74XX90-380-MR1" endpinid="Node-411-0" pointList="620,336,620,340" />
+
+<item itemtype="Connector" uid="Connector-384" startpinid="Clock-383-outnod" endpinid="74XX90-380-CP0" pointList="556,348,608,348,608,360,620,360" />
+
+<item itemtype="Connector" uid="Connector-385" startpinid="74XX90-380-Q0" endpinid="Node-391-0" pointList="668,328,668,328" />
+
+<item itemtype="Connector" uid="Connector-392" startpinid="Node-391-2" endpinid="74XX90-380-CP1" pointList="668,328,668,288,588,288,588,368,620,368" />
+
+<item itemtype="Connector" uid="Connector-393" startpinid="Node-391-1" endpinid="Led-387-lPin" pointList="668,328,740,328,740,332" />
+
+<item itemtype="Connector" uid="Connector-394" startpinid="74XX90-380-Q1" endpinid="Led-388-lPin" pointList="668,336,740,336,740,356" />
+
+<item itemtype="Connector" uid="Connector-395" startpinid="74XX90-380-Q2" endpinid="Led-389-lPin" pointList="668,344,724,344,724,380,740,380" />
+
+<item itemtype="Connector" uid="Connector-396" startpinid="74XX90-380-Q3" endpinid="Led-390-lPin" pointList="668,352,708,352,708,412,740,412" />
+
+<item itemtype="Connector" uid="Connector-397" startpinid="Led-387-rPin" endpinid="Node-398-0" pointList="772,332,772,356" />
+
+<item itemtype="Connector" uid="Connector-399" startpinid="Node-398-2" endpinid="Led-388-rPin" pointList="772,356,772,356" />
+
+<item itemtype="Connector" uid="Connector-400" startpinid="Node-398-1" endpinid="Node-401-0" pointList="772,356,772,380" />
+
+<item itemtype="Connector" uid="Connector-402" startpinid="Node-401-2" endpinid="Led-389-rPin" pointList="772,380,772,380" />
+
+<item itemtype="Connector" uid="Connector-403" startpinid="Node-401-1" endpinid="Node-405-0" pointList="772,380,772,400" />
+
+<item itemtype="Connector" uid="Connector-406" startpinid="Node-405-2" endpinid="Led-390-rPin" pointList="772,400,772,412" />
+
+<item itemtype="Connector" uid="Connector-407" startpinid="Node-405-1" endpinid="Ground-404-Gnd" pointList="772,400,796,400,796,404" />
+
+<item itemtype="Connector" uid="Connector-409" startpinid="Node-408-2" endpinid="74XX90-380-MS2" pointList="620,320,620,320" />
+
+<item itemtype="Connector" uid="Connector-410" startpinid="Node-408-1" endpinid="Node-411-1" pointList="620,320,620,340" />
+
+<item itemtype="Connector" uid="Connector-412" startpinid="Node-411-2" endpinid="74XX90-380-MR2" pointList="620,340,620,344" />
+
+<item itemtype="Connector" uid="Connector-416" startpinid="Ground-415-Gnd" endpinid="Node-417-1" pointList="544,288,568,288,568,312,620,312" />
+
+<item itemtype="Connector" uid="Connector-418" startpinid="Node-417-2" endpinid="Node-408-0" pointList="620,312,620,320" />
+
+</circuit>
