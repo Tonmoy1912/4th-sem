@@ -4,15 +4,15 @@
 
 <item itemtype="Fixed Voltage" CircId="Fixed Voltage-3" mainComp="false" Show_id="false" Show_Val="false" Pos="664,356" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-3" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Out="true" Voltage="5 V" />
 
-<item itemtype="Capacitor" CircId="Capacitor-8" mainComp="false" ShowProp="Capacitance" Show_id="false" Show_Val="true" Pos="744,516" rotation="90" hflip="1" vflip="1" label="Capacitor-8" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Capacitance="0.01 µF" Resistance="1e-06 Ω" InitVolt="0 V" AutoStep="0 _Steps" />
+<item itemtype="Capacitor" CircId="Capacitor-8" mainComp="false" ShowProp="Capacitance" Show_id="false" Show_Val="true" Pos="744,516" rotation="90" hflip="1" vflip="1" label="Capacitor-8" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Capacitance="0.1 µF" Resistance="1e-06 Ω" InitVolt="0 V" AutoStep="0 _Steps" />
 
 <item itemtype="Ground" CircId="Ground-10" mainComp="false" Show_id="false" Show_Val="false" Pos="768,556" rotation="0" hflip="1" vflip="1" label="Ground-10" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
 
 <item itemtype="Resistor" CircId="Resistor-17" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="824,484" rotation="90" hflip="1" vflip="1" label="Resistor-17" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="470 kΩ" />
 
-<item itemtype="Resistor" CircId="Resistor-22" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="712,484" rotation="90" hflip="1" vflip="1" label="Resistor-22" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="7 MΩ" />
+<item itemtype="Resistor" CircId="Resistor-22" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="712,484" rotation="90" hflip="1" vflip="1" label="Resistor-22" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="470 kΩ" />
 
-<item itemtype="Capacitor" CircId="Capacitor-29" mainComp="false" ShowProp="Capacitance" Show_id="false" Show_Val="true" Pos="660,468" rotation="90" hflip="1" vflip="1" label="Capacitor-29" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Capacitance="0.01 µF" Resistance="1e-06 Ω" InitVolt="0 V" AutoStep="0 _Steps" />
+<item itemtype="Capacitor" CircId="Capacitor-29" mainComp="false" ShowProp="Capacitance" Show_id="false" Show_Val="true" Pos="660,468" rotation="90" hflip="1" vflip="1" label="Capacitor-29" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Capacitance="0.1 µF" Resistance="1e-06 Ω" InitVolt="0 V" AutoStep="0 _Steps" />
 
 <item itemtype="FreqMeter" CircId="FreqMeter-42" mainComp="false" Show_id="false" Show_Val="false" Pos="920,432" rotation="0" hflip="1" vflip="1" label="FreqMeter-42" idLabPos="-32,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Filter="0.1 V" />
 
@@ -30,44 +30,44 @@
 
 <item itemtype="Node" CircId="Node-34" mainComp="false" Pos="744,532" />
 
-<item itemtype="Connector" uid="Connector-6" startpinid="Node-5-2" endpinid="LM555-1-Vcc" pointList="768,408,768,428" />
+<item itemtype="Connector" uid="connector-43" startpinid="Node-5-2" endpinid="LM555-1-Vcc" pointList="768,408,768,428" />
 
-<item itemtype="Connector" uid="Connector-7" startpinid="Node-5-1" endpinid="LM555-1-Rst" pointList="768,408,744,408,744,444" />
+<item itemtype="Connector" uid="connector-44" startpinid="Node-5-1" endpinid="LM555-1-Rst" pointList="768,408,744,408,744,444" />
 
-<item itemtype="Connector" uid="Connector-9" startpinid="LM555-1-Trg" endpinid="Node-30-0" pointList="744,452,744,452" />
+<item itemtype="Connector" uid="connector-45" startpinid="LM555-1-Trg" endpinid="Node-30-0" pointList="744,452,744,452" />
 
-<item itemtype="Connector" uid="Connector-11" startpinid="LM555-1-Gnd" endpinid="Node-13-0" pointList="768,484,768,532" />
+<item itemtype="Connector" uid="connector-46" startpinid="LM555-1-Gnd" endpinid="Node-13-0" pointList="768,484,768,532" />
 
-<item itemtype="Connector" uid="Connector-12" startpinid="Capacitor-8-rPin" endpinid="Node-34-0" pointList="744,532,744,532" />
+<item itemtype="Connector" uid="connector-47" startpinid="Capacitor-8-rPin" endpinid="Node-34-0" pointList="744,532,744,532" />
 
-<item itemtype="Connector" uid="Connector-14" startpinid="Node-13-2" endpinid="Ground-10-Gnd" pointList="768,532,768,540" />
+<item itemtype="Connector" uid="connector-48" startpinid="Node-13-2" endpinid="Ground-10-Gnd" pointList="768,532,768,540" />
 
-<item itemtype="Connector" uid="Connector-15" startpinid="LM555-1-CV" endpinid="Capacitor-8-lPin" pointList="744,468,744,500" />
+<item itemtype="Connector" uid="connector-49" startpinid="LM555-1-CV" endpinid="Capacitor-8-lPin" pointList="744,468,744,500" />
 
-<item itemtype="Connector" uid="Connector-18" startpinid="Resistor-17-rPin" endpinid="Node-23-0" pointList="824,500,792,500" />
+<item itemtype="Connector" uid="connector-50" startpinid="Resistor-17-rPin" endpinid="Node-23-0" pointList="824,500,792,500" />
 
-<item itemtype="Connector" uid="Connector-20" startpinid="Node-19-2" endpinid="Node-5-0" pointList="768,392,768,408" />
+<item itemtype="Connector" uid="connector-51" startpinid="Node-19-2" endpinid="Node-5-0" pointList="768,392,768,408" />
 
-<item itemtype="Connector" uid="Connector-21" startpinid="Node-19-1" endpinid="Resistor-17-lPin" pointList="768,392,824,392,824,468" />
+<item itemtype="Connector" uid="connector-52" startpinid="Node-19-1" endpinid="Resistor-17-lPin" pointList="768,392,824,392,824,468" />
 
-<item itemtype="Connector" uid="Connector-24" startpinid="Node-23-2" endpinid="LM555-1-Dis" pointList="792,500,792,468" />
+<item itemtype="Connector" uid="connector-53" startpinid="Node-23-2" endpinid="LM555-1-Dis" pointList="792,500,792,468" />
 
-<item itemtype="Connector" uid="Connector-25" startpinid="Node-23-1" endpinid="Resistor-22-rPin" pointList="792,500,712,500" />
+<item itemtype="Connector" uid="connector-54" startpinid="Node-23-1" endpinid="Resistor-22-rPin" pointList="792,500,712,500" />
 
-<item itemtype="Connector" uid="Connector-26" startpinid="Resistor-22-lPin" endpinid="Node-27-1" pointList="712,468,712,460,744,460" />
+<item itemtype="Connector" uid="connector-55" startpinid="Resistor-22-lPin" endpinid="Node-27-1" pointList="712,468,712,460,744,460" />
 
-<item itemtype="Connector" uid="Connector-28" startpinid="Node-27-2" endpinid="LM555-1-Thr" pointList="744,460,744,460" />
+<item itemtype="Connector" uid="connector-56" startpinid="Node-27-2" endpinid="LM555-1-Thr" pointList="744,460,744,460" />
 
-<item itemtype="Connector" uid="Connector-31" startpinid="Node-30-2" endpinid="Node-27-0" pointList="744,452,744,460" />
+<item itemtype="Connector" uid="connector-57" startpinid="Node-30-2" endpinid="Node-27-0" pointList="744,452,744,460" />
 
-<item itemtype="Connector" uid="Connector-32" startpinid="Node-30-1" endpinid="Capacitor-29-lPin" pointList="744,452,660,452" />
+<item itemtype="Connector" uid="connector-58" startpinid="Node-30-1" endpinid="Capacitor-29-lPin" pointList="744,452,660,452" />
 
-<item itemtype="Connector" uid="Connector-33" startpinid="Capacitor-29-rPin" endpinid="Node-34-1" pointList="660,484,660,532,744,532" />
+<item itemtype="Connector" uid="connector-59" startpinid="Capacitor-29-rPin" endpinid="Node-34-1" pointList="660,484,660,532,744,532" />
 
-<item itemtype="Connector" uid="Connector-35" startpinid="Node-34-2" endpinid="Node-13-1" pointList="744,532,768,532" />
+<item itemtype="Connector" uid="connector-60" startpinid="Node-34-2" endpinid="Node-13-1" pointList="744,532,768,532" />
 
-<item itemtype="Connector" uid="Connector-4" startpinid="Fixed Voltage-3-outnod" endpinid="Node-19-0" pointList="680,356,768,356,768,392" />
+<item itemtype="Connector" uid="connector-61" startpinid="Fixed Voltage-3-outnod" endpinid="Node-19-0" pointList="680,356,768,356,768,392" />
 
-<item itemtype="Connector" uid="Connector-43" startpinid="LM555-1-Out" endpinid="FreqMeter-42-lPin" pointList="792,444,880,444,880,432" />
+<item itemtype="Connector" uid="connector-62" startpinid="LM555-1-Out" endpinid="FreqMeter-42-lPin" pointList="792,444,880,444,880,432" />
 
 </circuit>
