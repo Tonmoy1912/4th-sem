@@ -1,0 +1,13 @@
+Theorem 2. Every infinite set is equivalent to some proper subset of itself.
+Proof. Let M be a infinite set. From property 3 we can say that M contain a countable
+subset A, let
+A = {a1, a2, . . . , n, . . .}.
+We partition A into two countable subsets as
+A1 = {a1, a3, a5, . . .} and A2 = {a2, a4, a6, . . .}.
+As A and A1 are both countable so a one-to-one correspondence can be set up between
+them. This correspondence can be extended to a one-to-one correspondence between
+the sets
+A1 ∪ (M \ A) = M \ A2 and A ∪ (M \ A) = M.
+We already have a 1-1 correspondence between A1 and A, now setting and identity
+map in the set M \ A, we obtain a 1-1 correspondence between M and M \ A2. And
+M \ A2 is a proper subset of M

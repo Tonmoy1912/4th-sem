@@ -1,0 +1,5 @@
+Wolfram Alpha webpage link :- https://mathworld.wolfram.com/NormalDistribution.html
+
+Normal distributions have many convenient properties, so random variates with unknown distributions are often assumed to be normal, especially in physics and astronomy. Although this can be a dangerous assumption, it is often a good approximation due to a surprising result known as the central limit theorem. This theorem states that the mean of any set of variates with any distribution having a finite mean and variance tends to the normal distribution. Many common attributes such as test scores, height, etc., follow roughly normal distributions, with few members at the high and low ends and many in the middle.
+
+Because they occur so frequently, there is an unfortunate tendency to invoke normal distributions in situations where they may not be applicable. As Lippmann stated, "Everybody believes in the exponential law of errors: the experimenters, because they think it can be proved by mathematics; and the mathematicians, because they believe it has been established by observation" (Whittaker and Robinson 1967, p. 179).

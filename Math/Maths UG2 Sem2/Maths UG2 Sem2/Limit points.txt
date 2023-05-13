@@ -1,0 +1,7 @@
+Limit Point of a open subset of R
+
+A set A is open iff for every point a∈A, there exists a δ such that the neighborhood (a−δ,a+δ) surrounding a is completely contained within (is a subset of)A.
+A point x is a limit point of a set A iff given any ε, all neighborhoods (x−ε,x+ε) intersect the set A in some point other than x
+Eg:- Limit points of open set (0,1) is 0 and 1 .
+
+Limit point exists for sets which are infinite and bounded
