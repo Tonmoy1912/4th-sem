@@ -12,7 +12,7 @@
 
 <item itemtype="Fixed Voltage" CircId="Fixed Voltage-37" mainComp="false" Show_id="true" Show_Val="false" Pos="580,536" rotation="0" hflip="1" vflip="1" label="!PL" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Out="true" Voltage="5 V" />
 
-<item itemtype="Clock" CircId="Clock-39" mainComp="false" ShowProp="Freq" Show_id="false" Show_Val="true" Pos="564,572" rotation="0" hflip="1" vflip="1" label="Clock-39" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Out="true" Running="true" Voltage="5 V" Freq="3 Hz" Always_On="false" />
+<item itemtype="Clock" CircId="Clock-39" mainComp="false" ShowProp="Freq" Show_id="false" Show_Val="true" Pos="388,644" rotation="0" hflip="1" vflip="1" label="Clock-39" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Out="true" Running="true" Voltage="5 V" Freq="3 Hz" Always_On="false" />
 
 <item itemtype="Seven Segment" CircId="Seven Segment-41" mainComp="false" Show_id="false" Show_Val="false" Pos="984,424" rotation="0" hflip="1" vflip="1" label="Seven Segment-41" idLabPos="20,-44" labelrot="0" valLabPos="-16,20" valLabRot="0" NumDisplays="1 _7seg" Color="Yellow" Vertical_Pins="false" CommonCathode="false" Threshold="2.4 V" MaxCurrent="0.02 A" Resistance="1 Ω" />
 
@@ -30,7 +30,7 @@
 
 <item itemtype="Subcircuit" CircId="74XX46-61" mainComp="false" Show_id="true" Show_Val="false" Pos="848,712" rotation="0" hflip="1" vflip="1" label="74XX46-61" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Logic_Symbol="false" />
 
-<item itemtype="Fixed Voltage" CircId="Fixed Voltage-66" mainComp="false" Show_id="false" Show_Val="false" Pos="816,648" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-66" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Out="true" Voltage="5 V" />
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-66" mainComp="false" Show_id="false" Show_Val="false" Pos="792,656" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-66" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Out="true" Voltage="5 V" />
 
 <item itemtype="Fixed Voltage" CircId="Fixed Voltage-172" mainComp="false" Show_id="true" Show_Val="false" Pos="564,696" rotation="0" hflip="1" vflip="1" label="D" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Out="false" Voltage="5 V" />
 
@@ -40,13 +40,17 @@
 
 <item itemtype="Fixed Voltage" CircId="Fixed Voltage-222" mainComp="false" Show_id="true" Show_Val="false" Pos="564,732" rotation="0" hflip="1" vflip="1" label="C" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Out="false" Voltage="5 V" />
 
-<item itemtype="Fixed Voltage" CircId="Fixed Voltage-274" mainComp="false" Show_id="true" Show_Val="false" Pos="428,560" rotation="0" hflip="1" vflip="1" label="A" idLabPos="-46.9731,-9.49561" labelrot="0" valLabPos="-16,8" valLabRot="0" Out="false" Voltage="5 V" />
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-274" mainComp="false" Show_id="true" Show_Val="false" Pos="428,560" rotation="0" hflip="1" vflip="1" label="A" idLabPos="-46,-9" labelrot="0" valLabPos="-16,8" valLabRot="0" Out="false" Voltage="5 V" />
 
-<item itemtype="Fixed Voltage" CircId="Fixed Voltage-275" mainComp="false" Show_id="true" Show_Val="false" Pos="428,524" rotation="0" hflip="1" vflip="1" label="B" idLabPos="-48.2344,-10.1262" labelrot="0" valLabPos="-16,8" valLabRot="0" Out="true" Voltage="5 V" />
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-275" mainComp="false" Show_id="true" Show_Val="false" Pos="428,524" rotation="0" hflip="1" vflip="1" label="B" idLabPos="-48,-10" labelrot="0" valLabPos="-16,8" valLabRot="0" Out="true" Voltage="5 V" />
 
-<item itemtype="Fixed Voltage" CircId="Fixed Voltage-276" mainComp="false" Show_id="true" Show_Val="false" Pos="428,488" rotation="0" hflip="1" vflip="1" label="C" idLabPos="-47.6037,-9.49561" labelrot="0" valLabPos="-16,8" valLabRot="0" Out="true" Voltage="5 V" />
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-276" mainComp="false" Show_id="true" Show_Val="false" Pos="428,488" rotation="0" hflip="1" vflip="1" label="C" idLabPos="-47,-9" labelrot="0" valLabPos="-16,8" valLabRot="0" Out="true" Voltage="5 V" />
 
-<item itemtype="Fixed Voltage" CircId="Fixed Voltage-277" mainComp="false" Show_id="true" Show_Val="false" Pos="428,452" rotation="0" hflip="1" vflip="1" label="D" idLabPos="-45.7119,-11.3875" labelrot="0" valLabPos="-16,8" valLabRot="0" Out="false" Voltage="5 V" />
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-277" mainComp="false" Show_id="true" Show_Val="false" Pos="428,452" rotation="0" hflip="1" vflip="1" label="D" idLabPos="-45,-11" labelrot="0" valLabPos="-16,8" valLabRot="0" Out="false" Voltage="5 V" />
+
+<item itemtype="Or Gate" CircId="Or Gate-333" mainComp="false" Show_id="false" Show_Val="false" Pos="996,660" rotation="0" hflip="1" vflip="1" label="Or Gate-333" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Num_Inputs="8" Inverted="false" Open_Collector="false" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1e+09 Ω" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Tpd_ps="10000 ps" Tr_ps="3000 ps" Tf_ps="4000 ps" />
+
+<item itemtype="And Gate" CircId="And Gate-364" mainComp="false" Show_id="false" Show_Val="false" Pos="460,648" rotation="0" hflip="1" vflip="1" label="And Gate-364" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Num_Inputs="2" Inverted="false" Open_Collector="false" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1e+09 Ω" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Tpd_ps="10000 ps" Tr_ps="3000 ps" Tf_ps="4000 ps" />
 
 <item itemtype="Node" CircId="Node-25" mainComp="false" Pos="788,500" />
 
@@ -62,114 +66,166 @@
 
 <item itemtype="Node" CircId="Node-169" mainComp="false" Pos="656,456" />
 
-<item itemtype="Connector" uid="connector-227" startpinid="Fixed Voltage-14-outnod" endpinid="Node-163-0" pointList="596,492,604,492,604,516,644,516" />
+<item itemtype="Node" CircId="Node-334" mainComp="false" Pos="804,532" />
 
-<item itemtype="Connector" uid="connector-228" startpinid="Fixed Voltage-23-outnod" endpinid="Node-25-0" pointList="788,432,788,500" />
+<item itemtype="Node" CircId="Node-337" mainComp="false" Pos="808,524" />
 
-<item itemtype="Connector" uid="connector-229" startpinid="Node-25-2" endpinid="74XX46-2-LT" pointList="788,500,820,500" />
+<item itemtype="Node" CircId="Node-340" mainComp="false" Pos="812,492" />
 
-<item itemtype="Connector" uid="connector-230" startpinid="Node-25-1" endpinid="Node-28-0" pointList="788,500,788,508" />
+<item itemtype="Node" CircId="Node-349" mainComp="false" Pos="812,472" />
 
-<item itemtype="Connector" uid="connector-231" startpinid="Node-28-2" endpinid="74XX46-2-BI/RBO" pointList="788,508,820,508" />
+<item itemtype="Node" CircId="Node-352" mainComp="false" Pos="792,708" />
 
-<item itemtype="Connector" uid="connector-232" startpinid="Node-28-1" endpinid="74XX46-2-RBI" pointList="788,508,788,516,820,516" />
+<item itemtype="Node" CircId="Node-355" mainComp="false" Pos="816,688" />
 
-<item itemtype="Connector" uid="connector-233" startpinid="74HC192-1-Q0" endpinid="74XX46-2-A" pointList="692,500,680,500,680,460,804,460,804,532,820,532" />
+<item itemtype="Node" CircId="Node-358" mainComp="false" Pos="828,760" />
 
-<item itemtype="Connector" uid="connector-234" startpinid="74HC192-1-Q1" endpinid="74XX46-2-B" pointList="692,492,684,492,684,472,812,472,812,484,820,484" />
+<item itemtype="Node" CircId="Node-361" mainComp="false" Pos="832,768" />
 
-<item itemtype="Connector" uid="connector-235" startpinid="74HC192-1-Q2" endpinid="74XX46-2-C" pointList="692,524,672,524,672,452,796,452,796,492,820,492" />
+<item itemtype="Connector" uid="connector-278" startpinid="Fixed Voltage-14-outnod" endpinid="Node-163-0" pointList="596,492,604,492,604,516,644,516" />
 
-<item itemtype="Connector" uid="connector-236" startpinid="74HC192-1-Q3" endpinid="74XX46-2-D" pointList="692,532,676,532,676,556,784,556,784,524,820,524" />
+<item itemtype="Connector" uid="connector-279" startpinid="Fixed Voltage-23-outnod" endpinid="Node-25-0" pointList="788,432,788,500" />
 
-<item itemtype="Connector" uid="connector-237" startpinid="Fixed Voltage-35-outnod" endpinid="Node-169-0" pointList="608,456,656,456" />
+<item itemtype="Connector" uid="connector-280" startpinid="Node-25-2" endpinid="74XX46-2-LT" pointList="788,500,820,500" />
 
-<item itemtype="Connector" uid="connector-238" startpinid="Fixed Voltage-37-outnod" endpinid="Node-166-0" pointList="596,536,648,536,648,564" />
+<item itemtype="Connector" uid="connector-281" startpinid="Node-25-1" endpinid="Node-28-0" pointList="788,500,788,508" />
 
-<item itemtype="Connector" uid="connector-239" startpinid="Clock-39-outnod" endpinid="74HC192-1-CPd" pointList="580,572,624,572,624,508,692,508" />
+<item itemtype="Connector" uid="connector-282" startpinid="Node-28-2" endpinid="74XX46-2-BI/RBO" pointList="788,508,820,508" />
 
-<item itemtype="Connector" uid="connector-240" startpinid="74XX46-2-f" endpinid="Seven Segment-41-pin_f" pointList="868,492,960,492,960,440" />
+<item itemtype="Connector" uid="connector-283" startpinid="Node-28-1" endpinid="74XX46-2-RBI" pointList="788,508,788,516,820,516" />
 
-<item itemtype="Connector" uid="connector-241" startpinid="74XX46-2-g" endpinid="Seven Segment-41-pin_g" pointList="868,500,960,500,960,448" />
+<item itemtype="Connector" uid="connector-284" startpinid="74HC192-1-Q0" endpinid="Node-334-0" pointList="692,500,680,500,680,460,804,460,804,532" />
 
-<item itemtype="Connector" uid="connector-242" startpinid="74XX46-2-a" endpinid="Seven Segment-41-pin_a" pointList="868,508,960,508,960,400" />
+<item itemtype="Connector" uid="connector-286" startpinid="74HC192-1-Q2" endpinid="Node-340-0" pointList="692,524,672,524,672,452,796,452,796,492,812,492" />
 
-<item itemtype="Connector" uid="connector-243" startpinid="74XX46-2-b" endpinid="Seven Segment-41-pin_b" pointList="868,516,960,516,960,408" />
+<item itemtype="Connector" uid="connector-287" startpinid="74HC192-1-Q3" endpinid="Node-337-0" pointList="692,532,676,532,676,556,784,556,784,524,808,524" />
 
-<item itemtype="Connector" uid="connector-244" startpinid="74XX46-2-c" endpinid="Seven Segment-41-pin_c" pointList="868,524,960,524,960,416" />
+<item itemtype="Connector" uid="connector-288" startpinid="Fixed Voltage-35-outnod" endpinid="Node-169-0" pointList="608,456,656,456" />
 
-<item itemtype="Connector" uid="connector-245" startpinid="74XX46-2-d" endpinid="Seven Segment-41-pin_d" pointList="868,532,960,532,960,424" />
+<item itemtype="Connector" uid="connector-289" startpinid="Fixed Voltage-37-outnod" endpinid="Node-166-0" pointList="596,536,648,536,648,564" />
 
-<item itemtype="Connector" uid="connector-246" startpinid="74XX46-2-e" endpinid="Seven Segment-41-pin_e" pointList="868,540,960,540,960,432" />
+<item itemtype="Connector" uid="connector-291" startpinid="74XX46-2-f" endpinid="Seven Segment-41-pin_f" pointList="868,492,960,492,960,440" />
 
-<item itemtype="Connector" uid="connector-247" startpinid="Seven Segment-41-pin_commona" endpinid="Resistor-51-rPin" pointList="992,456,968,456,968,560" />
+<item itemtype="Connector" uid="connector-292" startpinid="74XX46-2-g" endpinid="Seven Segment-41-pin_g" pointList="868,500,960,500,960,448" />
 
-<item itemtype="Connector" uid="connector-248" startpinid="Fixed Voltage-42-outnod" endpinid="Resistor-51-lPin" pointList="944,604,968,604,968,592" />
+<item itemtype="Connector" uid="connector-293" startpinid="74XX46-2-a" endpinid="Seven Segment-41-pin_a" pointList="868,508,960,508,960,400" />
 
-<item itemtype="Connector" uid="connector-249" startpinid="74HC192-54-Q2" endpinid="74XX46-61-C" pointList="712,760,692,760,692,688,816,688,816,728,840,728" />
+<item itemtype="Connector" uid="connector-294" startpinid="74XX46-2-b" endpinid="Seven Segment-41-pin_b" pointList="868,516,960,516,960,408" />
 
-<item itemtype="Connector" uid="connector-250" startpinid="74XX46-61-a" endpinid="Seven Segment-57-pin_a" pointList="888,744,888,400" />
+<item itemtype="Connector" uid="connector-295" startpinid="74XX46-2-c" endpinid="Seven Segment-41-pin_c" pointList="868,524,960,524,960,416" />
 
-<item itemtype="Connector" uid="connector-251" startpinid="Fixed Voltage-66-outnod" endpinid="Node-67-0" pointList="832,648,832,736,808,736" />
+<item itemtype="Connector" uid="connector-296" startpinid="74XX46-2-d" endpinid="Seven Segment-41-pin_d" pointList="868,532,960,532,960,424" />
 
-<item itemtype="Connector" uid="connector-252" startpinid="74XX46-61-g" endpinid="Seven Segment-57-pin_g" pointList="888,736,888,448" />
+<item itemtype="Connector" uid="connector-297" startpinid="74XX46-2-e" endpinid="Seven Segment-41-pin_e" pointList="868,540,960,540,960,432" />
 
-<item itemtype="Connector" uid="connector-253" startpinid="74XX46-61-c" endpinid="Seven Segment-57-pin_c" pointList="888,760,888,416" />
+<item itemtype="Connector" uid="connector-298" startpinid="Seven Segment-41-pin_commona" endpinid="Resistor-51-rPin" pointList="992,456,968,456,968,560" />
 
-<item itemtype="Connector" uid="connector-254" startpinid="74HC192-54-Q3" endpinid="74XX46-61-D" pointList="712,768,696,768,696,792,804,792,804,760,840,760" />
+<item itemtype="Connector" uid="connector-299" startpinid="Fixed Voltage-42-outnod" endpinid="Resistor-51-lPin" pointList="944,604,968,604,968,592" />
 
-<item itemtype="Connector" uid="connector-255" startpinid="Node-64-1" endpinid="74XX46-61-RBI" pointList="808,744,808,752,840,752" />
+<item itemtype="Connector" uid="connector-300" startpinid="74HC192-54-Q2" endpinid="Node-355-0" pointList="712,760,692,760,692,688,816,688" />
 
-<item itemtype="Connector" uid="connector-256" startpinid="74XX46-61-f" endpinid="Seven Segment-57-pin_f" pointList="888,728,888,440" />
+<item itemtype="Connector" uid="connector-301" startpinid="74XX46-61-a" endpinid="Seven Segment-57-pin_a" pointList="888,744,888,400" />
 
-<item itemtype="Connector" uid="connector-257" startpinid="Node-67-1" endpinid="Node-64-0" pointList="808,736,808,744" />
+<item itemtype="Connector" uid="connector-302" startpinid="Fixed Voltage-66-outnod" endpinid="Node-67-0" pointList="808,656,808,736" />
 
-<item itemtype="Connector" uid="connector-258" startpinid="74HC192-54-Q1" endpinid="74XX46-61-B" pointList="712,728,704,728,704,708,832,708,832,720,840,720" />
+<item itemtype="Connector" uid="connector-303" startpinid="74XX46-61-g" endpinid="Seven Segment-57-pin_g" pointList="888,736,888,448" />
 
-<item itemtype="Connector" uid="connector-259" startpinid="Node-67-2" endpinid="74XX46-61-LT" pointList="808,736,840,736" />
+<item itemtype="Connector" uid="connector-304" startpinid="74XX46-61-c" endpinid="Seven Segment-57-pin_c" pointList="888,760,888,416" />
 
-<item itemtype="Connector" uid="connector-260" startpinid="Seven Segment-57-pin_commona" endpinid="Resistor-59-rPin" pointList="920,456,920,796,988,796" />
+<item itemtype="Connector" uid="connector-305" startpinid="74HC192-54-Q3" endpinid="Node-358-0" pointList="712,768,696,768,696,792,804,792,804,760,828,760" />
 
-<item itemtype="Connector" uid="connector-261" startpinid="74XX46-61-e" endpinid="Seven Segment-57-pin_e" pointList="888,776,888,432" />
+<item itemtype="Connector" uid="connector-306" startpinid="Node-64-1" endpinid="74XX46-61-RBI" pointList="808,744,808,752,840,752" />
 
-<item itemtype="Connector" uid="connector-262" startpinid="74HC192-54-Q0" endpinid="74XX46-61-A" pointList="712,736,700,736,700,696,824,696,824,768,840,768" />
+<item itemtype="Connector" uid="connector-307" startpinid="74XX46-61-f" endpinid="Seven Segment-57-pin_f" pointList="888,728,888,440" />
 
-<item itemtype="Connector" uid="connector-263" startpinid="74XX46-61-b" endpinid="Seven Segment-57-pin_b" pointList="888,752,888,408" />
+<item itemtype="Connector" uid="connector-308" startpinid="Node-67-1" endpinid="Node-64-0" pointList="808,736,808,744" />
 
-<item itemtype="Connector" uid="connector-264" startpinid="Fixed Voltage-56-outnod" endpinid="Resistor-59-lPin" pointList="964,840,988,840,988,828" />
+<item itemtype="Connector" uid="connector-309" startpinid="74HC192-54-Q1" endpinid="Node-352-0" pointList="712,728,704,728,704,708,792,708" />
 
-<item itemtype="Connector" uid="connector-265" startpinid="Node-64-2" endpinid="74XX46-61-BI/RBO" pointList="808,744,840,744" />
+<item itemtype="Connector" uid="connector-310" startpinid="Node-67-2" endpinid="74XX46-61-LT" pointList="808,736,840,736" />
 
-<item itemtype="Connector" uid="connector-266" startpinid="74XX46-61-d" endpinid="Seven Segment-57-pin_d" pointList="888,768,888,424" />
+<item itemtype="Connector" uid="connector-311" startpinid="Seven Segment-57-pin_commona" endpinid="Resistor-59-rPin" pointList="920,456,920,796,988,796" />
 
-<item itemtype="Connector" uid="connector-267" startpinid="74HC192-1-!TCd" endpinid="74HC192-54-CPd" pointList="740,508,760,508,760,604,660,604,660,744,712,744" />
+<item itemtype="Connector" uid="connector-312" startpinid="74XX46-61-e" endpinid="Seven Segment-57-pin_e" pointList="888,776,888,432" />
 
-<item itemtype="Connector" uid="connector-268" startpinid="Node-163-2" endpinid="74HC192-1-CPu" pointList="644,516,692,516" />
+<item itemtype="Connector" uid="connector-313" startpinid="74HC192-54-Q0" endpinid="Node-361-0" pointList="712,736,700,736,700,696,824,696,824,768,832,768" />
 
-<item itemtype="Connector" uid="connector-269" startpinid="Node-163-1" endpinid="74HC192-54-CPu" pointList="644,516,644,752,712,752" />
+<item itemtype="Connector" uid="connector-314" startpinid="74XX46-61-b" endpinid="Seven Segment-57-pin_b" pointList="888,752,888,408" />
 
-<item itemtype="Connector" uid="connector-270" startpinid="Node-166-2" endpinid="74HC192-1-!PL" pointList="648,564,752,564,752,524,740,524" />
+<item itemtype="Connector" uid="connector-315" startpinid="Fixed Voltage-56-outnod" endpinid="Resistor-59-lPin" pointList="964,840,988,840,988,828" />
 
-<item itemtype="Connector" uid="connector-271" startpinid="Node-166-1" endpinid="74HC192-54-!PL" pointList="648,564,648,644,776,644,776,760,760,760" />
+<item itemtype="Connector" uid="connector-316" startpinid="Node-64-2" endpinid="74XX46-61-BI/RBO" pointList="808,744,840,744" />
 
-<item itemtype="Connector" uid="connector-272" startpinid="Node-169-2" endpinid="74HC192-1-R" pointList="656,456,760,456,760,500,740,500" />
+<item itemtype="Connector" uid="connector-317" startpinid="74XX46-61-d" endpinid="Seven Segment-57-pin_d" pointList="888,768,888,424" />
 
-<item itemtype="Connector" uid="connector-273" startpinid="Node-169-1" endpinid="74HC192-54-R" pointList="656,456,656,588,768,588,768,736,760,736" />
+<item itemtype="Connector" uid="connector-318" startpinid="74HC192-1-!TCd" endpinid="74HC192-54-CPd" pointList="740,508,760,508,760,604,660,604,660,744,712,744" />
 
-<item itemtype="Connector" uid="Connector-278" startpinid="Fixed Voltage-274-outnod" endpinid="74HC192-1-D0" pointList="444,560,612,560,612,576,768,576,768,492,740,492" />
+<item itemtype="Connector" uid="connector-319" startpinid="Node-163-2" endpinid="74HC192-1-CPu" pointList="644,516,692,516" />
 
-<item itemtype="Connector" uid="Connector-279" startpinid="Fixed Voltage-275-outnod" endpinid="74HC192-1-D1" pointList="444,524,468,524,468,600,664,600,664,484,692,484" />
+<item itemtype="Connector" uid="connector-320" startpinid="Node-163-1" endpinid="74HC192-54-CPu" pointList="644,516,644,752,712,752" />
 
-<item itemtype="Connector" uid="Connector-280" startpinid="Fixed Voltage-276-outnod" endpinid="74HC192-1-D2" pointList="444,488,496,488,496,608,772,608,772,532,740,532" />
+<item itemtype="Connector" uid="connector-321" startpinid="Node-166-2" endpinid="74HC192-1-!PL" pointList="648,564,752,564,752,524,740,524" />
 
-<item itemtype="Connector" uid="Connector-281" startpinid="Fixed Voltage-277-outnod" endpinid="74HC192-1-D3" pointList="444,452,512,452,512,620,792,620,792,540,740,540" />
+<item itemtype="Connector" uid="connector-322" startpinid="Node-166-1" endpinid="74HC192-54-!PL" pointList="648,564,648,644,776,644,776,760,760,760" />
 
-<item itemtype="Connector" uid="Connector-282" startpinid="Fixed Voltage-221-outnod" endpinid="74HC192-54-D0" pointList="580,804,780,804,780,728,760,728" />
+<item itemtype="Connector" uid="connector-323" startpinid="Node-169-2" endpinid="74HC192-1-R" pointList="656,456,760,456,760,500,740,500" />
 
-<item itemtype="Connector" uid="Connector-283" startpinid="Fixed Voltage-220-outnod" endpinid="74HC192-54-D1" pointList="580,768,676,768,676,720,712,720" />
+<item itemtype="Connector" uid="connector-324" startpinid="Node-169-1" endpinid="74HC192-54-R" pointList="656,456,656,588,768,588,768,736,760,736" />
 
-<item itemtype="Connector" uid="Connector-284" startpinid="Fixed Voltage-222-outnod" endpinid="74HC192-54-D2" pointList="580,732,620,732,620,824,792,824,792,768,760,768" />
+<item itemtype="Connector" uid="connector-325" startpinid="Fixed Voltage-274-outnod" endpinid="74HC192-1-D0" pointList="444,560,612,560,612,576,768,576,768,492,740,492" />
 
-<item itemtype="Connector" uid="Connector-285" startpinid="Fixed Voltage-172-outnod" endpinid="74HC192-54-D3" pointList="580,696,636,696,636,816,772,816,772,776,760,776" />
+<item itemtype="Connector" uid="connector-326" startpinid="Fixed Voltage-275-outnod" endpinid="74HC192-1-D1" pointList="444,524,468,524,468,600,664,600,664,484,692,484" />
+
+<item itemtype="Connector" uid="connector-327" startpinid="Fixed Voltage-276-outnod" endpinid="74HC192-1-D2" pointList="444,488,496,488,496,608,772,608,772,532,740,532" />
+
+<item itemtype="Connector" uid="connector-328" startpinid="Fixed Voltage-277-outnod" endpinid="74HC192-1-D3" pointList="444,452,512,452,512,620,792,620,792,540,740,540" />
+
+<item itemtype="Connector" uid="connector-329" startpinid="Fixed Voltage-221-outnod" endpinid="74HC192-54-D0" pointList="580,804,780,804,780,728,760,728" />
+
+<item itemtype="Connector" uid="connector-330" startpinid="Fixed Voltage-220-outnod" endpinid="74HC192-54-D1" pointList="580,768,676,768,676,720,712,720" />
+
+<item itemtype="Connector" uid="connector-331" startpinid="Fixed Voltage-222-outnod" endpinid="74HC192-54-D2" pointList="580,732,620,732,620,824,792,824,792,768,760,768" />
+
+<item itemtype="Connector" uid="connector-332" startpinid="Fixed Voltage-172-outnod" endpinid="74HC192-54-D3" pointList="580,696,636,696,636,816,772,816,772,776,760,776" />
+
+<item itemtype="Connector" uid="Connector-335" startpinid="Node-334-2" endpinid="74XX46-2-A" pointList="804,532,820,532" />
+
+<item itemtype="Connector" uid="Connector-336" startpinid="Node-334-1" endpinid="Or Gate-333-in3" pointList="804,532,804,580,848,580,848,656,980,656" />
+
+<item itemtype="Connector" uid="Connector-338" startpinid="Node-337-2" endpinid="74XX46-2-D" pointList="808,524,820,524" />
+
+<item itemtype="Connector" uid="Connector-339" startpinid="Node-337-1" endpinid="Or Gate-333-in2" pointList="808,524,808,576,852,576,852,648,980,648" />
+
+<item itemtype="Connector" uid="Connector-341" startpinid="Node-340-2" endpinid="74XX46-2-C" pointList="812,492,820,492" />
+
+<item itemtype="Connector" uid="Connector-342" startpinid="Node-340-1" endpinid="Or Gate-333-in1" pointList="812,492,812,572,856,572,856,640,980,640" />
+
+<item itemtype="Connector" uid="connector-285" startpinid="74HC192-1-Q1" endpinid="Node-349-0" pointList="692,492,684,492,684,472,812,472" />
+
+<item itemtype="Connector" uid="Connector-350" startpinid="Node-349-2" endpinid="74XX46-2-B" pointList="812,472,812,484,820,484" />
+
+<item itemtype="Connector" uid="Connector-351" startpinid="Node-349-1" endpinid="Or Gate-333-in0" pointList="812,472,876,472,876,632,980,632" />
+
+<item itemtype="Connector" uid="Connector-353" startpinid="Node-352-2" endpinid="74XX46-61-B" pointList="792,708,832,708,832,720,840,720" />
+
+<item itemtype="Connector" uid="Connector-354" startpinid="Node-352-1" endpinid="Or Gate-333-in4" pointList="792,708,792,664,980,664" />
+
+<item itemtype="Connector" uid="Connector-356" startpinid="Node-355-2" endpinid="74XX46-61-C" pointList="816,688,816,728,840,728" />
+
+<item itemtype="Connector" uid="Connector-357" startpinid="Node-355-1" endpinid="Or Gate-333-in5" pointList="816,688,816,672,980,672" />
+
+<item itemtype="Connector" uid="Connector-359" startpinid="Node-358-2" endpinid="74XX46-61-D" pointList="828,760,840,760" />
+
+<item itemtype="Connector" uid="Connector-360" startpinid="Node-358-1" endpinid="Or Gate-333-in6" pointList="828,760,828,680,980,680" />
+
+<item itemtype="Connector" uid="Connector-362" startpinid="Node-361-2" endpinid="74XX46-61-A" pointList="832,768,840,768" />
+
+<item itemtype="Connector" uid="Connector-363" startpinid="Node-361-1" endpinid="Or Gate-333-in7" pointList="832,768,832,688,980,688" />
+
+<item itemtype="Connector" uid="Connector-365" startpinid="Clock-39-outnod" endpinid="And Gate-364-in0" pointList="404,644,444,644" />
+
+<item itemtype="Connector" uid="Connector-366" startpinid="Or Gate-333-out" endpinid="And Gate-364-in1" pointList="1012,660,1012,820,428,820,428,652,444,652" />
+
+<item itemtype="Connector" uid="Connector-367" startpinid="And Gate-364-out" endpinid="74HC192-1-CPd" pointList="476,648,624,648,624,508,692,508" />
 
 </circuit>
